@@ -1,0 +1,32 @@
+/*Basic styles*/
+p{
+	width:90%;
+	margin:25px auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+	width:100%;
+	margin:0 auto;
+}
+
+/*color change for the controls panel*/
+.mejs__inner .mejs__controls{
+	background: linear-gradient(transparent,orange);
+}
+
+
+/*Media query for mobile first approach*/
+@media(min-width:768px){
+
+	p{
+		width:80%;
+		line-height: 1.5;
+	}
+
+	.wrapper{
+		width:80%;
+		margin-top: 20px;
+	}
+
+}
